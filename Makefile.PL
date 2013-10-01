@@ -1,8 +1,8 @@
 use inc::Module::Install;
  
-name     'SNNP-Info-Offline';
+name     'SNNP-Info-More';
 license  'bsd';
-all_from 'lib/SNMP/Info/Offline.pm';
+all_from 'lib/SNMP/Info/More.pm';
  
 requires 'Moo' => 0;
 requires 'DBM::Deep' => 0;

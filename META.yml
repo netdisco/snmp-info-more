@@ -11,13 +11,14 @@ license: bsd
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
-name: SNNP-Info-Offline
+name: SNNP-Info-More
 no_index:
   directory:
     - inc
+    - t
 requires:
   DBM::Deep: 0
   Moo: 0
 resources:
   license: http://opensource.org/licenses/bsd-license.php
-version: 0.001
+version: 0.002
